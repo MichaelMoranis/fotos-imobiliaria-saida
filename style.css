@@ -8,6 +8,9 @@ body {
   background: linear-gradient(45deg, #740dea, #e27ffa);
   width: 100vw;
   height: 100vh;
+  background-image: url("./image/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main {
@@ -70,6 +73,9 @@ main {
 .social-media, a {
   color: white;
   background-color: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
   border: 2px solid white;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
